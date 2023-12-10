@@ -83,5 +83,34 @@
     "email": "mango@gmail.com",
     "phone": "322-22-22",
     "$0": "index.js"
+  },
+  {
+    "id": "B3bPSxWm5mBc1bcfLAxCM",
+    "_": [
+      "D:\\nodejs\\node.exe",
+      "D:\\GitHub projects\\CLI-\\index.js"
+    ],
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22",
+    "$0": "index.js"
+  },
+  {
+    "id": "TGNfxIeJ_Mlloukh26_Tr",
+    "_": [],
+    "name": "Mango",
+    "email": true,
+    "$0": "index.js"
+  },
+  {
+    "id": "0-y1ImTzF9d61PMRRPTZq",
+    "name": "Mango",
+    "phone": true
+  },
+  {
+    "id": "JV7wujk9fJccbt1jRpv58",
+    "name": "Mango",
+    "email": "322-22-22",
+    "phone": "mango@gmail.com"
   }
 ]

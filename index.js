@@ -1,7 +1,7 @@
 import yargs from "yargs";
 import * as contactList from "./contacts.js"
 
-const invokeAction = async ({action, id, ...data}) => {
+const invokeAction = async ({action, id, name, email, phone}) => {
   switch (action) {
     case "list":
       const allContacts = await contactList.listContacts();
@@ -10,7 +10,7 @@ const invokeAction = async ({action, id, ...data}) => {
       const getContact = await contactList.getContactById(id);
       return console.log(getContact);
     case "add":
-      const newContact = await contactList.addContact(data);
+      const newContact = await contactList.addContact(name,phone,email);
       return console.log(newContact);
     case "remove":
       const removeContact = await contactList.removeContact(id);
