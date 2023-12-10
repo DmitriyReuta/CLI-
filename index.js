@@ -18,5 +18,5 @@ const invokeAction = async ({action, id, name, email, phone}) => {
   }
 }
 
-const {argv} = yargs(process.argv);
+const {argv} = yargs(process.argv.slice(2));
 invokeAction(argv);
